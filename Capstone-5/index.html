@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="game-title">Hangman Game</h1>
+    <p id="game-instruction">Click the letters in the alphabet below to guess the word. The category is countries </p>
+    <div id="alphabet">
+        <button onclick="alphabet(this)" value="a" class="letter">a</button>
+        <button onclick="alphabet(this)" value="b" class="letter">b</button>
+        <button onclick="alphabet(this)" value="c" class="letter">c</button>
+        <button onclick="alphabet(this)" value="d" class="letter">d</button>
+        <button onclick="alphabet(this)" value="e" class="letter">e</button>
+        <button onclick="alphabet(this)" value="f" class="letter">f</button>
+        <button onclick="alphabet(this)" value="g" class="letter">g</button>
+        <button onclick="alphabet(this)" value="h" class="letter">h</button>
+        <button onclick="alphabet(this)" value="i" class="letter">i</button>
+        <button onclick="alphabet(this)" value="j" class="letter">j</button>
+        <button onclick="alphabet(this)" value="k" class="letter">k</button>
+        <button onclick="alphabet(this)" value="l" class="letter">l</button>
+        <button onclick="alphabet(this)" value="m" class="letter">m</button>
+        <button onclick="alphabet(this)" value="n" class="letter">n</button>
+        <button onclick="alphabet(this)" value="o" class="letter">o</button>
+        <button onclick="alphabet(this)" value="p" class="letter">p</button>
+        <button onclick="alphabet(this)" value="q" class="letter">q</button>
+        <button onclick="alphabet(this)" value="r" class="letter">r</button>
+        <button onclick="alphabet(this)" value="s" class="letter">s</button>
+        <button onclick="alphabet(this)" value="t" class="letter">t</button>
+        <button onclick="alphabet(this)" value="u" class="letter">u</button>
+        <button onclick="alphabet(this)" value="v" class="letter">v</button>
+        <button onclick="alphabet(this)" value="w" class="letter">w</button>
+        <button onclick="alphabet(this)" value="x" class="letter">x</button>
+        <button onclick="alphabet(this)" value="y" class="letter">y</button>
+        <button onclick="alphabet(this)" value="z" class="letter">z</button>
+    </div>
+
+    <h3 id="word-dot">Word:</h3>
+    <div id="lines"></div>
+
+    <p id="lives-remaining">Remaining Lives: 5</p>
+
+    <div id="buttons">
+        <button id="hint-button">Hint</button>
+        <button id="reset-button">Reset</button>
+    </div>
+
+    <div id="hint"></div>
+
+    <div id="display">
+        <h2 id="game-over">Game Over!</h2>
+        <h2 id="winner">You're a winner</h2>
+        <h2 id="correct-word">Correct Word:</h2>
+        <button onclick="location.reload()">Play again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

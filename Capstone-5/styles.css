@@ -1,0 +1,39 @@
+body{
+    border: dotted;
+    /* background-color: green; */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+  
+}
+
+
+.game-title, #game-instruction, #word-dot, #alphabet, #buttons, #hint, #display {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+.letter {
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+#lines {
+    margin: 20px 0;
+}
+
+#lives-remaining {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}

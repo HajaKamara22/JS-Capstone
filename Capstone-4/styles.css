@@ -1,0 +1,72 @@
+.gamecontainer{
+    border: solid;
+    margin: 90px;
+    padding-bottom: 40px;
+}
+
+#gametitle{
+    text-align: center;
+    margin:70px;
+}
+
+.image{
+    text-align: center;
+}
+
+.letsplay{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    border: 10px solid gray;
+    padding: 10px;
+    
+    
+}
+
+.rock{
+    height: 150px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 250px;
+}
+
+.paper{
+    height: 150px;
+    padding: 20px;
+    border-radius: 250px;
+}
+
+.scissor{
+    height: 150px;
+    padding: 20px;
+    width: 70%;
+    border-radius: 250px;
+}
+
+/* #shootbutton{
+    margin: auto;
+} */
+
+.buttoncontainer{
+    /* width: 100%; */
+   /* padding: auto; */
+   text-align: center;
+   margin-top: 10px;
+}
+
+#player{
+    text-align: center;
+}
+
+#computer{
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+}
+
+#resetButton{
+    margin-left: 725px;
+}

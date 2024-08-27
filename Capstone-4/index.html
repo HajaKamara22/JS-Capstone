@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="gamecontainer">
+    <h1 id="gametitle">Rock Paper Scissors</h1>
+    <p class="image">click on an image to play</p>
+    <!-- <button id="resetButton" onclick="resetGame()">RESET</button> -->
+    <br>
+    <br>
+    <div class="letsplay">
+        <div>
+            <button onclick="play('rock')"><img class="rock" src="assets/rock the person .jpeg" alt="rock the person"></button>
+        </div>
+        <div>
+            <button onclick="play('paper')"><img class="paper" src="assets/white paper.jpeg" alt="white paper"></button>
+        </div>
+        <div>
+            <button onclick="play('scissors')"><img class="scissor" src="assets/cool-scissors.webp" alt="cool vintage scissor"></button>
+        </div>
+    </div>
+    <!-- <div class="buttoncontainer">
+    <button id="shootbutton" onclick="Game()">Shoot!</button>
+    </div> -->
+
+    <h1 id="player">You:</h1>
+    <h1 id="computer">Computer:</h1>
+    <h1 id="result"></h1>
+    
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
